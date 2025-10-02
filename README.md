@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution URL here](https://your-solution-url.com)
-- Live Site URL: [Live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution URL here](https://github.com/Isuru-Maduwansha/social-link-profile-challenge)
+- Live Site URL: [Live site URL here](https://isuru-maduwansha-social-profile-link.netlify.app/)
 
 ## My process
 
