@@ -1,0 +1,74 @@
+/*-- colors & font variables --*/
+:root{
+   font-family: Inter;
+   --c-Green: hsl(75, 94%, 57%);
+   --c-White: hsl(0, 0%, 100%);
+   --c-Grey700: hsl(0, 0%, 20%);
+   --c-Grey800: hsl(0, 0%, 12%);
+   --c-Grey900: hsl(0, 0%, 8%);
+}
+/*-- body --*/
+body{
+   display: flex;
+   height: 100vh;
+   margin: 0;
+   background-color: var(--c-Grey900);
+   align-items: center;
+   justify-content: center;
+   line-height: 1.6;
+}
+/*--container --*/
+.container{
+   display: flex;
+   flex-direction: column;
+   max-width: 300px;
+   background-color: var(--c-Grey800);
+   border-radius:10px;
+   align-items: center;
+   justify-content: center;
+   padding-bottom: 20px;
+}
+.container h1{
+   font-size: 20px;
+   font-weight: 500;
+   color: var(--c-White);
+   margin: 0;
+}
+.container span{
+   font-size: 12px;
+   font-weight: 400;
+   color: var(--c-Green);
+   padding-top: 2px;
+}
+.container p{
+   font-size: 12px;
+   font-weight: 400;
+   color: var(--c-White);
+   padding: 3px;
+}
+/*-- avatar image --*/
+.avatarImg{
+   padding: 35px 0 20px 0;
+   border-radius: 50%;
+   width: 72px;
+   height: 72px;
+}
+/*-- button --*/
+.buttonStyle{
+   color: var(--c-White);
+   background-color: var(--c-Grey700);
+   font-size: 12px;
+   font-weight: 600;
+   padding: 10px;
+   border-radius: 5px;
+   border-style: none;
+   width: 80%;
+   margin-bottom: 12px;
+}
+.buttonStyle:hover{
+   background-color: var(--c-Green);
+   color: var(--c-Grey700);
+}
+/*-- footer --*/
+   .attribution { font-size: 11px; color: var(--c-White); text-align: center; margin-top: 20px; }
+   .attribution a { color: hsl(228, 45%, 44%); }
